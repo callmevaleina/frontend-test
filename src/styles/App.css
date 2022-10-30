@@ -1,0 +1,37 @@
+:root{
+  --darkBlue: #1b3c4f;
+  --blueGray: #20445a;
+  --darkSkyblue: #429da8;
+  --skyblue: #76c4c9;
+  --lightSkyblue: #84e5ee;
+  --extraLightSkyblue: #bae6e3;
+  --orange: #ef6331;
+  --darkOrange: #db5b2d;
+
+}
+
+html{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background:var(--darkOrange);
+}
+
+.App {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

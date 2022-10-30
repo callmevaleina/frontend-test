@@ -1,0 +1,107 @@
+.login-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 500px;
+  background-image: url("../assets/loginBg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 20px #111;
+}
+
+.login-bg h2 {
+  width: 80%;
+  margin: 0;
+  margin-top: -50px;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-shadow: 0 0 5px var(--darkBlue);
+}
+
+.login-bg p {
+  width: 85%;
+  margin: 0;
+  margin-bottom: 50px;
+  color: white;
+  font-size: 13px;
+  text-shadow: 0 0 5px var(--darkBlue);
+}
+
+input {
+  width: 90%;
+  height: 40px;
+  cursor: pointer;
+  color: var(--darkBlue);
+  padding-left: 10px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  border-radius: 12px;
+}
+
+input::placeholder {
+  padding-left: 5px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--darkBlue);
+}
+
+.input-container {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 350px;
+}
+
+.passwordContainer {
+  width: 93%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background: white;
+  border-radius: 12px;
+}
+
+.passwordContainer > input {
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+.passwordContainer > i { 
+  padding-right: 20px;
+  border: none;
+  font-size: 20px;
+  color: var(--darkBlue);
+}
+
+button {
+  margin-top: 20px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  padding: 5px 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.55s;
+  background: white;
+  color: var(--darkBlue);
+}
+button:hover {
+  border-color: white;
+  background: none;
+  color: white;
+}
